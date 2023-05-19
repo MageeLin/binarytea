@@ -11,8 +11,8 @@
     <groupId>learning.spring</groupId>
     <artifactId>binarytea</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>binarytea</name>
-    <description>binarytea</description>
+    <name>BinaryTea</name>
+    <description>BinaryTea Service</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -26,6 +26,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
